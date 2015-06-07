@@ -1,0 +1,22 @@
+{
+  "name": "ECMAScript-6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --exec babel-node node_modules/jasmine/bin/jasmine.js spec/app_test.js & nodemon --exec 'jshint js/app.js || true'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vinh3928/ECMAScript-6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinh3928/ECMAScript-6/issues"
+  },
+  "homepage": "https://github.com/vinh3928/ECMAScript-6",
+  "devDependencies": {
+    "jasmine": "^2.3.1"
+  }
+}
